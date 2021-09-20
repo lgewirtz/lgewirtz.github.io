@@ -181,7 +181,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2945,7 +2945,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #a094a1;
 		}
 
 			.spotlights > section > .image {
@@ -2954,7 +2954,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 50%;
 			}
 
 				.spotlights > section > .image img {
@@ -2992,14 +2992,25 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding: 2em 3em 0.1em 3em ;
-				width: 70%;
+				padding: 2em .5em 0.1em .5em ;
+				width: 50%;
 			}
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
-					max-width: 100%;
-					width: 65em;
+					max-width: 50%;
+					/* width: 65em; */
+				}
+
+				.spotlights > section > .content > .inner > .amajor {
+					margin: 0 -3em 0 -3em;
+					/* max-width: 100%; */
+					/* width: 65em;   liz */
+				}
+				/* .spotlights > section > .content > .inner > .actions { */
+					/* margin: 1 -5em 0 -5em; */
+					/* /* max-width: 100%; */ */
+					/* /* width: 65em;    */ */
 				}
 
 			.spotlights > section:nth-child(2n) {
@@ -3020,11 +3031,11 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .image {
-				width: 40%;
+				width: 50%;
 			}
 
 			.spotlights > section > .content {
-				width: 60%;
+				width: 50%;
 			}
 
 		}
@@ -3032,11 +3043,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlights > section > .image {
-				width: 45%;
+				width: 50%;
 			}
 
 			.spotlights > section > .content {
-				width: 55%;
+				width: 50%;
 			}
 
 		}
@@ -3401,7 +3412,7 @@ input, select, textarea {
 		border-bottom: 0 !important;
 		cursor: default;
 		height: 35vh;
-		margin-bottom: -5.5em;
+		margin-bottom: -5em;
 		max-height: 32em;
 		min-height: 22em;
 		position: relative;
