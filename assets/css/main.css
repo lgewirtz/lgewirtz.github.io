@@ -2946,6 +2946,7 @@ input, select, textarea {
 			-ms-flex-direction: row;
 			flex-direction: row;
 			background-color: #a094a1;
+			/* background-color: #ffffff; */
 		}
 
 			.spotlights > section > .image {
@@ -2965,6 +2966,7 @@ input, select, textarea {
 
 				.spotlights > section > .image:before {
 					background: rgba(36, 41, 67, 0.9);
+					/* background-color: #ffffff; */
 					content: '';
 					display: block;
 					height: 100%;
@@ -2976,6 +2978,8 @@ input, select, textarea {
 				}
 
 			.spotlights > section > .content {
+				/* background-color: #B0C2C7;  */
+				background-color: ##b155b8;  
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -2998,12 +3002,14 @@ input, select, textarea {
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
+					/* background-color: #ffffff; */
 					max-width: 50%;
 					/* width: 65em; */
 				}
 
 				.spotlights > section > .content > .inner > .amajor {
 					margin: 0 -3em 0 -3em;
+					/* background-color: #ffffff; */
 					/* max-width: 100%; */
 					/* width: 65em;   liz */
 				}
@@ -3014,6 +3020,7 @@ input, select, textarea {
 				}
 
 			.spotlights > section:nth-child(2n) {
+				/* background-color: #ffffff; */
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
@@ -3022,6 +3029,7 @@ input, select, textarea {
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
+					background-color: #6f6a7d;
 					-moz-align-items: -moz-flex-end;
 					-webkit-align-items: -webkit-flex-end;
 					-ms-align-items: -ms-flex-end;
