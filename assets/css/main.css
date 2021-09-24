@@ -2967,11 +2967,6 @@ input, select, textarea {
 					height: 100%;
 					/* vertical-align: baseline; */
 				}
-/* liz */
-
-	/* *, *:before, *:after { */
-		/* box-sizing: inherit; */
-	/* } */
 
 
 
@@ -3379,6 +3374,8 @@ input, select, textarea {
 
 						#header nav a[href="#menu"]:last-child {
 							padding-right: 4em !important;
+							/* padding-top: -2em */
+							margin-top: -.6em;
 						}
 
 							#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
@@ -3438,7 +3435,7 @@ input, select, textarea {
 		min-height: 22em;
 		position: relative;
 		/* top: -3.25em; */
-		top: -4em;
+		top: -4.2em;
 	}
 
 		#banner:after {
@@ -3464,8 +3461,8 @@ input, select, textarea {
 		}
 
 		#banner h1 {
-			font-size: 3em;
-			padding-top: .5em;
+			font-size: 2.5em;
+			padding-top: 1em;
 		}
 
 		#banner > .inner {
@@ -3797,7 +3794,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		-ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
-		padding-top: 3.25em;
+		padding-top: 3em;
 	}
 
 		#wrapper.is-transitioning {
