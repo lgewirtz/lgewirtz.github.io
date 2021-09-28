@@ -2200,7 +2200,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			/* margin: 0 0 2em 0; */
 			width: 100%;
 		}
 
@@ -2963,8 +2963,10 @@ input, select, textarea {
 					border-radius: 0;
 					display: block;
 					width: 100%;
-					padding: 5em .1em -.9em .1em;
+					/* padding: 5em .1em -.9em .1em; */
 					height: 100%;
+					/* padding 1em .5em .5em 0; */
+					height: 90%;
 					/* vertical-align: baseline; */
 				}
 
@@ -3003,7 +3005,8 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				padding: 1.5em .1em 0.1em .1em ;
+				/* padding: 1.5em .1em 0.1em .1em ; */
+				padding: 0 .1em 0 .1em ;
 				width: 50%;
 			}
 
@@ -3016,10 +3019,18 @@ input, select, textarea {
 
 				.spotlights > section > .content > .inner > .amajor {
 					margin: 0 -3em 0 -3em;
+				}
+					
+				 p.bmajor {
+					margin: 0 -3em 0 -3em;
+					font-style: italic;
+					font-weight: bold;
+				}
+
 					/* padding: 0 -1em 0 -1em; */
 					/* background-color: #ffffff; */
 					/* max-width: 100%; */
-					/* width: 65em;   liz */
+					/* width: 65em;    */
 				}
 				/* .spotlights > section > .content > .inner > .actions { */
 					/* margin: 1 -5em 0 -5em; */
@@ -3048,6 +3059,8 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				width: 50%;
+				padding: 1em .5em .5em 0;
+
 			}
 
 			.spotlights > section > .content {
@@ -3060,6 +3073,8 @@ input, select, textarea {
 
 			.spotlights > section > .image {
 				width: 50%;
+				padding 1em .5em .5em 0;
+
 			}
 
 			.spotlights > section > .content {
