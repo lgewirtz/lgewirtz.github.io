@@ -2956,7 +2956,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 50%;
+				width: 49%;
 			}
 
 				.spotlights > section > .image img {
@@ -3007,13 +3007,13 @@ input, select, textarea {
 				align-items: center;
 				/* padding: 1.5em .1em 0.1em .1em ; */
 				padding: 0 .1em 0 .1em ;
-				width: 50%;
+				width: 49%;
 			}
 
 				.spotlights > section > .content > .inner {
 					margin: 0 auto;
 					/* background-color: #ffffff; */
-					max-width: 50%;
+					max-width: 49%;
 					/* width: 65em; */
 				}
 
