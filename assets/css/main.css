@@ -3793,9 +3793,8 @@ input, select, textarea {
 		}
 
 		#three h4 {
-			padding-top: 1em;
-			padding-bottom: 0;
 			line-height: 1em;
+			margin: 1.5em 0 .5em 0;
 		}
 
 		#three a {
@@ -3804,6 +3803,13 @@ input, select, textarea {
 		}
 
 
+		#three > * > header.major > p {
+			font-size: 1em;
+			font-weight: 400;
+			letter-spacing: 0.1em;
+			margin: 0 0 1em 0;
+			text-transform: none;
+		}
 
 
 
