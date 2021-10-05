@@ -3042,6 +3042,13 @@ input, select, textarea {
 					font-style: italic;
 					font-weight: bold;
 				}
+				
+				 p.majorlift {
+					margin: 1em -3em 0 -3.6em;
+					font-size: .8em;
+
+				}
+
 
 					/* padding: 0 -1em 0 -1em; */
 					/* background-color: #ffffff; */
