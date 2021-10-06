@@ -3014,8 +3014,10 @@ input, select, textarea {
 				-ms-align-items: center;
 				align-items: center;
 				/* padding: 1.5em .1em 0.1em .1em ; */
-				padding: 1em .1em 0 1em ;
+				/* padding: 1em .1em 0 1em ; */
 				width: 49%;
+				padding: 1em 3em 0 1em
+
 			}
 
 				.spotlights > section > .content > .inner {
@@ -3050,7 +3052,7 @@ input, select, textarea {
 				}
 
 				 ul.holly {
-					margin: .5em -3em 2em 0;
+					margin: 0 -3em 2em 0;
 					/* font-size: .8em; */
 				}
 
@@ -3074,6 +3076,9 @@ input, select, textarea {
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
 				background-color: #333856;
+				margin: 0 auto;
+				max-width: 49%;
+
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3082,6 +3087,8 @@ input, select, textarea {
 					-webkit-align-items: -webkit-flex-end;
 					-ms-align-items: -ms-flex-end;
 					align-items: flex-end;
+					width: 50%;
+					padding: 1em 3em 0 1em
 				}
 
 		@media screen and (max-width: 1680px) {
