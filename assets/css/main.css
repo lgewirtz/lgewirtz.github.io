@@ -1801,6 +1801,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			h3.saffire:after {
+				content: '';
+				background-color: #ffffff;
+				display: block;
+				height: 2px;
+				margin: 0.325em 0 0.5em 0;
+				width: 100%;
+			}
+
+
+
 		header.major > p {
 			font-size: 0.7em;
 			font-weight: 600;
@@ -3767,11 +3778,6 @@ input, select, textarea {
 				}
 
 		@media screen and (max-width: 980px) {
-/* liz */
-			/* #header > .alt > :h1 { */
-				/* margin: 1em 0 0 0; */
-				/* } */
-
 
 			#contact > .inner {
 				display: block;
@@ -3831,7 +3837,21 @@ input, select, textarea {
 			text-transform: none;
 		}
 
+		/* #three > hr { */
+			/* color: #ffffff; */
+		/* } */
 
+		/* #three > .major > h3 > :nth-child(2):after {	 */
+				/* content: ''; */
+				/* background-color: #ffffff; */
+				/* display: block; */
+				/* height: 2px; */
+				/* margin: 0.325em 0 0.5em 0; */
+				/* width: 100%; */
+			/* } */
+/* liz */
+
+ /* /* > :first-child:after  */ */
 
 
 
