@@ -2987,6 +2987,10 @@ input, select, textarea {
 		.contact-method h3 {
 			margin: 0 0 0.5em 0;
 		}
+		
+	.info {
+		font-weight: 600em;
+	}
 
 /* Spotlights */
 
