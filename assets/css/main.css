@@ -3918,6 +3918,31 @@ input, select, textarea {
 			text-transform: none;
 		}
 		
+		#three div {
+			/* width: 50%; */
+			width: 90vw;
+			/* color: red; */
+		}
+		
+		#three li {
+			width: 90vw;
+			/* color: green; */
+		}
+		
+		/* #Lists div { */
+			/* width: 80%; */
+			/* color: red; */
+		/* } */
+		
+		/* #Lists ul { */
+			/* width: 100% */
+			/* color: green; */
+		/* } */
+		/* #Lists li { */
+			/* width: 100% */
+			/* color: white; */
+		/* } */
+		
 		/* #three > * > header.amajor > ul > li { */
 			/* padding: 0 3em 1em auto; */
 			/* box-sizing: content-box; */
